@@ -9,9 +9,9 @@ from sklearn.metrics import accuracy_score
 
 warnings.filterwarnings("ignore")
 
-DELIVERIES_FILE = "deliveries_updated_ipl_upto_2025.csv"
-MATCHES_FILE = "ipl.csv"
-SQUADS_FILE = "ipl_2026_full_squads.csv"
+DELIVERIES_FILE = 'data/deliveries_updated_ipl_upto_2025.csv'
+IPL_FILE = 'data/ipl.csv'
+SQUADS_FILE = 'data/ipl_2026_full_squads.csv'
 
 RECENT_MATCH_WINDOW = 8
 
