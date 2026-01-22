@@ -26,6 +26,3 @@ ipl-match-prediction/
 ├── src/
 │   └── ipl_prediction_model.py
 ├── README.md
-
-- data/: Place all CSV files here.
-- src/: Python scripts for the model.
