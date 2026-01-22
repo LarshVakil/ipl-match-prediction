@@ -1,17 +1,16 @@
-import pandas as pd
-import numpy as np
 import warnings
 
+import numpy as np
+import pandas as pd
 from xgboost import XGBClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score
 
-warnings.filterwarnings("ignore")
-
 DELIVERIES_FILE = 'data/deliveries_updated_ipl_upto_2025.csv'
-MATCHES_FILE = 'data/ipl.csv'                 
-SQUADS_FILE = 'data/ipl_2026_full_squads.cs
+MATCHES_FILE = 'data/ipl.csv'
+SQUADS_FILE = 'data/ipl_2026_full_squads.csv'
+
 
 RECENT_MATCH_WINDOW = 8
 
